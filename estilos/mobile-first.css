@@ -79,7 +79,7 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    border: 2px solid #5f2c82;
+    border: 1px solid #5f2c82;
 }
 
 div.campo > label {
@@ -102,7 +102,7 @@ div.campo > input {
     border-radius: 8px;
     border: 0px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within {
