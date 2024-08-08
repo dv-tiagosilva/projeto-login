@@ -41,6 +41,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -51,24 +54,24 @@ section#login > div#imagem {
     height: 200px; 
 }
 
-#formulario {
+section#login > div#formulario {
     display: block;
     padding: 10px;
     text-align: justify;
 }
 
-#formulario > h1 {
+section#login > div#formulario > h1 {
     text-align: center;
     padding-bottom: 10px;
 }
 
-#formulario > p {
+section#login > div#formulario > p {
     font-size: 0.8em;
     text-align: justify;
     padding-bottom: 10px;
 }
 
-#iemail {
+/* #iemail {
     background-color: #6df7f285;
     border: 1px solid #49a09d;
     border-radius: 10px;
@@ -111,4 +114,4 @@ a {
     border-radius: 5px;
     margin: 0px auto 0px auto;
     padding: 10px;
-}
+} */
